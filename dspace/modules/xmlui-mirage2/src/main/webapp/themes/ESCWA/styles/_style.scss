@@ -1,0 +1,26 @@
+/**
+ * The contents of this file are subject to the license and copyright
+ * detailed in the LICENSE and NOTICE files at the root of the source
+ * tree and available online at
+ *
+ * http://www.dspace.org/license/
+ */
+
+/**
+ * You can put your own style in this file.
+ * It will be included in all color schemes
+ */
+
+@import "../../0_ECLAC/styles/main";
+
+$escwa-main-color :#ff9933;
+
+header .navbar-brand img {
+  height: 120px;
+  width: initial;
+}
+
+div.trail-wrapper{
+  background: $eclac-blue;
+  border-bottom: 5px solid $escwa-main-color;
+}

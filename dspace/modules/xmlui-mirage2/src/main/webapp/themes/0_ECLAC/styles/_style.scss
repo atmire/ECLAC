@@ -17,6 +17,9 @@
     ::selection { @content; }
 }
 
+$eclac-blue :#195591;
+$eclac-lightened :#3e8ddd;
+
 @include selection {
     color: white;
     background: hotpink;
@@ -58,4 +61,30 @@
   #aspect_submission_StepTransformer_item_publication-title{
     margin-bottom:5px;
   }
+}
+
+header .navbar-brand img{
+  height: 100px;
+  width: 65px;
+}
+
+div.navbar-static-top{
+  background: white;
+  color:$eclac-blue;
+}
+
+header{
+  height:130px;
+}
+
+.navbar-nav > li > a {
+  @media (min-width: 768px) {
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+div.trail-wrapper{
+  background: $eclac-lightened;
 }
