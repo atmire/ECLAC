@@ -13,7 +13,7 @@
 
 @import "../../0_ECLAC/styles/main";
 
-$escwa-main-color :#ff9933;
+$escap-main-color:#ff9933;
 
 header .navbar-brand img {
   height: 120px;
@@ -21,6 +21,6 @@ header .navbar-brand img {
 }
 
 div.trail-wrapper{
-  background: $eclac-blue;
-  border-bottom: 5px solid $escwa-main-color;
+  background: lighten($eclac-blue,20%);
+  border-bottom: 5px solid $escap-main-color;
 }

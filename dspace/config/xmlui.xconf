@@ -151,7 +151,7 @@
         their respective items.    
     -->
     <themes>
-        <theme name="ESCWA Child theme" handle="123456789/1" path="ESCWA/" />
+        <theme name="ESCAP Child theme" handle="123456789/1" path="ESCAP/" />
         <theme name="ECLAC Parent Base Theme" regex=".*" path="0_ECLAC/" />
     </themes>
 </xmlui>
