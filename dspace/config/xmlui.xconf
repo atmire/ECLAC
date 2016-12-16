@@ -157,8 +157,8 @@
         <!-- <theme name="Test Theme 2" regex="community-list" path="theme2/"/> -->
 
         <!-- Mirage theme, @mire contributed theme, default since DSpace 3.0 -->
-        <theme name="Atmire Mirage Theme" handle="123456789/1" path="ESCWA/" />
-        <theme name="Atmire Mirage Theme" regex=".*" path="0_ECLAC/" />
+        <theme name="ESCWA Child theme" handle="123456789/1" path="ESCWA/" />
+        <theme name="ECLAC Parent Base Theme" regex=".*" path="0_ECLAC/" />
 
         <!-- Reference theme, the default Manakin XMLUI layout up to DSpace 1.8 -->
         <!-- <theme name="Default Reference Theme" regex=".*" path="Reference/" /> -->
