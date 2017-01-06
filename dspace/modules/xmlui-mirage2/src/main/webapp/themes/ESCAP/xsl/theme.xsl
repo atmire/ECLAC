@@ -51,6 +51,7 @@
     <xsl:import href="../../0_ECLAC/xsl/theme.xsl"/>
     <xsl:import href="custom/core/page-structure.xsl"/>
 
+    <xsl:variable name="theme-google-analytics-id" select="'ESCAP-Analytics-key'"/>
     <xsl:output indent="yes"/>
 
 

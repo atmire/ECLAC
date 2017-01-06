@@ -49,6 +49,7 @@
     <xsl:import href="aspect/artifactbrowser/one-offs.xsl"/>
     <xsl:import href="aspect/submission/submission.xsl"/>
     <xsl:import href="custom/core/page-structure.xsl"/>
+    <xsl:variable name="theme-google-analytics-id" select="'ECLAC-Analytics-key'"/>
 
     <xsl:output indent="yes"/>
 
